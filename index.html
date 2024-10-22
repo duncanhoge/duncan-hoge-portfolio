@@ -11,17 +11,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
-
-	<maintitle>: Use a unique and descriptive class name
-		<400>: Use a value from 400 to 700
-		
-		.lora-<maintitle> {
-		  font-family: "Lora", serif;
-		  font-optical-sizing: auto;
-		  font-weight: <weight>;
-		  font-style: normal;
-		}
 		
 	<style>
 	
@@ -49,7 +38,6 @@
 	   	font-size: 100%;
 	   	font: "Lora", serif;
 	   	vertical-align: baseline;
-	   	color: #e4e4e4;
 	   }
 	   a {
 	   	color: inherit;
@@ -92,12 +80,15 @@ html {
    		 font-size: 9px; /* Adjust this base font size as needed */
  }
 
+
  h1 {
-	  font-family: "Lora", serif; 
-      font-size: clamp(4rem, 10vw, 14.901rem); /* Fluid font size */
-	  font-weight: 800;
-      margin-bottom: 3rem; 
-    }
+    font-family: "Lora", serif;
+    letter-spacing: -1;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(4rem, 10vw, 14.901rem); 
+	color: #e4e4e4;
+ }
 
   h2 {
     margin-bottom: 3rem;
@@ -158,12 +149,12 @@ html {
 <script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script></head>
 <body>
 	<div class="container">
-		<h1>
-		  <a href="mailto:duncan.hoge@gmail.com">Duncan</a> is a 
-		  <span onmouseover="this.textContent = 'Product Designer'" 
-				onmouseout="this.textContent = 'Creative Director'">Creative Director</span> 
-		  at <a href="https://www.rga.com/" target="_blank">R/GA</a>. He also likes to <a href="https://www.strava.com/athletes/829615" target="_blank">run</a>.
+		<h1> 
+			<a href="mailto:duncan.hoge@gmail.com">Duncan</a> is a 
+			<span onmouseover="this.textContent = 'Product Designer'" 
+				  onmouseout="this.textContent = 'Creative Director'">Creative Director</span> 
+			at <a href="https://www.rga.com/" target="_blank">R/GA</a>. He also likes to <a href="https://www.strava.com/athletes/829615" target="_blank">run</a>.
 		</h1>
-	  </div>
-
-<!-- <a href="mailto:duncan.hoge@gmail.com?subject=Insert me if you want a subject line"> -->
+	</div>
+</body>
+</html>	
