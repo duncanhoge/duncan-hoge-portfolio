@@ -3,12 +3,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Duncan Hoge is a Creative Director.">
-	<meta name="keywords" content="Experience Design, Experience Designer, UX, R/GA, Transformation at Speed, IXDA, Design, Duncan">
+	<meta name="keywords" content="Experience Design, Experience Designer, UX, R/GA, Transformation at Speed, IXDA, Design, Duncan, Creative director">
  	<meta name="author" content="Duncan Hoge">
-	<link href="./Duncan Hoge _ Experience Design Director_files/css" rel="stylesheet">
 
 	<title>Duncan Hoge | Creative Director, UX</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+
+	<maintitle>: Use a unique and descriptive class name
+		<400>: Use a value from 400 to 700
+		
+		.lora-<maintitle> {
+		  font-family: "Lora", serif;
+		  font-optical-sizing: auto;
+		  font-weight: <weight>;
+		  font-style: normal;
+		}
+		
 	<style>
 	
 		/* http://meyerweb.com/eric/tools/css/reset/ 
@@ -33,7 +47,7 @@
 	   	padding: 0;
 	   	border: 0;
 	   	font-size: 100%;
-	   	font: inherit;
+	   	font: "Lora", serif;
 	   	vertical-align: baseline;
 	   	color: #e4e4e4;
 	   }
@@ -79,7 +93,7 @@ html {
  }
 
  h1 {
-	  font-family: Abhaya Libre;
+	  font-family: "Lora", serif; 
       font-size: clamp(4rem, 10vw, 14.901rem); /* Fluid font size */
 	  font-weight: 800;
       margin-bottom: 3rem; 
@@ -87,7 +101,6 @@ html {
 
   h2 {
     margin-bottom: 3rem;
-    font-family: Abhaya Libre;
     font-size: 4.883rem; /* Converted from em to rem */
     line-height: 6rem;
     font-weight: 800;
@@ -97,7 +110,6 @@ html {
 
   h3 {
     margin-bottom: 3rem;
-    font-family: Abhaya Libre;
     font-size: 3.906rem; /* Converted from em to rem */
     line-height: 6rem;
     font-weight: 800;
@@ -107,7 +119,6 @@ html {
 
   h4 {
     margin-bottom: 3rem;
-    font-family: Abhaya Libre;
     font-size: 3.125rem; 
     line-height: 6rem;
     font-weight: 800;
@@ -117,7 +128,6 @@ html {
 
   h5 {
     margin-bottom: 3rem;
-    font-family: Abhaya Libre;
     font-size: 2.5rem; 
     line-height: 3rem;
     font-weight: 800;
@@ -127,7 +137,6 @@ html {
 
   h6 {
     margin-bottom: 3rem;
-    font-family: Abhaya Libre;
     font-size: 2rem;   
     line-height: 3rem;
     font-weight: 800;
@@ -137,7 +146,6 @@ html {
 
   p {
     margin-bottom: 3rem;
-    font-family: Lora;
     font-size: 1.6rem; 
     line-height: 3rem;
     font-weight: 400;
@@ -150,7 +158,12 @@ html {
 <script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script></head>
 <body>
 	<div class="container">
-		<h1><a href="mailto:duncan.hoge@gmail.com">Duncan</a> is a Creative Director of UX / XD at <a href="https://www.rga.com/" target="_blank">R/GA</a>. He also likes to <a href="https://www.strava.com/athletes/829615" target="_blank">run</a>.</h1>
-	</div>
+		<h1>
+		  <a href="mailto:duncan.hoge@gmail.com">Duncan</a> is a 
+		  <span onmouseover="this.textContent = 'Product Designer'" 
+				onmouseout="this.textContent = 'Creative Director'">Creative Director</span> 
+		  at <a href="https://www.rga.com/" target="_blank">R/GA</a>. He also likes to <a href="https://www.strava.com/athletes/829615" target="_blank">run</a>.
+		</h1>
+	  </div>
 
 <!-- <a href="mailto:duncan.hoge@gmail.com?subject=Insert me if you want a subject line"> -->
